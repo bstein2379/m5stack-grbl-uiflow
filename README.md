@@ -17,10 +17,14 @@ Basic functionality (based on uiFlow v1.8.2):
 Faces:
 1. On the Faces kit, type a GRBL command and then press the Send button (A) or the OK button on the QWERTY keyboard. The Fire should receive the command, display it on the screen, and also display the GRBL return message (from the module) just below the GRBL command. Press the Clear button (B) to clear the command.
 
+![Image of GRBL_tx](https://github.com/bstein2379/m5stack-grbl-uiflow/blob/main/GRBL_tx.png)
+
 Fire:
 1. GRBL commands sent from the Faces kit should display on the screen automatically.
-2. Copy a GRBL file to a microSD card and insert it into the Fire. Press the Load button (A) on the Fire should display it on the screen. Press the Rub button (B) to execute the GRBL program.
+2. Copy a GRBL file (ex: circle.nc) to a microSD card and insert it into the Fire. Press the Load button (A) on the Fire should display it on the screen. Press the Rub button (B) to execute the GRBL program.
 2. Press the Reset button (C) to clear the screen.
+
+![Image of GRBL_rx](https://github.com/bstein2379/m5stack-grbl-uiflow/blob/main/GRBL_rx.png)
 
 #
 Issues:
