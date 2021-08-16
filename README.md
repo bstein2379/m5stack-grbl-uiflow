@@ -32,4 +32,4 @@ Issues:
 1. There seems to be a limit in the transmit or receive buffer between the GRBL module and the M5Stack Fire. They communicate internally over I2C (default address 0x70) and I have seen some of the GRBL return messages being truncated (cut off) when printing the GRBL response to the screen. 
 #
 Other comments:
-1. The GRBL module 13.2 is running a really old version of GRBL, which is version 0.7. There should be a away to flash the latest GRBL v1.1 firmware, but I have not tried it yet.  You can see the supported v0.7 GRBL commands here: https://github.com/grbl/grbl/wiki/Configuring-Grbl-v0.7
+1. The GRBL module 13.2 is running a really old version of GRBL, which is version 0.7. There should be a away to flash the latest GRBL v1.1 firmware, but I have not tried it yet.  You can see the supported v0.7 GRBL commands here: https://github.com/grbl/grbl/wiki/Configuring-Grbl-v0.8
